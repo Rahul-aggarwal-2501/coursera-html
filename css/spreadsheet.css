@@ -1,0 +1,91 @@
+*{
+   background-color: skyblue ;
+    
+}
+
+h1{
+    text-align: center;
+    font-size:xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Reciepe{
+   
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+
+}
+
+
+.Reciepe p{
+    background-color: inherit;
+    padding: 10px;
+    font-size: 125%;
+   
+}
+.Box{
+    background-color: rgb(8, 129, 250);
+    border-style:solid;
+    border-width: 1px;
+    border-top-color: black;
+    float: right;
+    font-weight:bold;
+
+
+}
+#section1{
+    background-color: #F4C430;
+}
+#section2{
+    background-color: white;
+}
+#section3{
+    background-color :green;
+}
+@media screen and (min-width: 992px) {
+    .Reciepe{
+        width:32.3%;
+        display: inline-block;
+        margin-right: 1%;;
+        
+    }
+    .col-container{
+        display: flex;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+     
+    section{
+        width: 49%;
+        display: inline-block;
+        margin-right: 1%;
+
+    }
+     #section3 {
+        width: 100%;
+        display: inline-block;
+        margin-right: 1%;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 767px) {
+    .Reciepe{
+        width:100%;
+        display: inline-block;
+        margin-right: 1%;
+    }
+    .col-container{
+        display: block;
+    }
+    
+}
